@@ -37,7 +37,7 @@ Copy
 Edit
 npm run storybook
 Now open http://localhost:6006 to explore the components.
-
+```
 🧱 Components
 1. 🔔 Toast
 Displays feedback messages like success, error, warning, and info.
@@ -59,7 +59,9 @@ Example:
 tsx
 Copy
 Edit
+```
 <Toast type="success" message="Saved successfully!" />
+```
 2. ✍️ TextInput
 A basic form input field with label and placeholder.
 
@@ -76,7 +78,9 @@ Example:
 tsx
 Copy
 Edit
+```
 <TextInput label="Username" placeholder="Enter your name" />
+```
 3. ✒️ Typography System
 Consistent styled text components (H1, H2, P, etc.) for layout and readability.
 
@@ -84,9 +88,12 @@ Example:
 tsx
 Copy
 Edit
+```
 <H1>Design System</H1>
 <P>This project showcases reusable UI components.</P>
+```
 📁 Folder Structure
+```
 bash
 Copy
 Edit
@@ -100,23 +107,7 @@ Edit
     TextInput.stories.tsx
     Typography.stories.tsx
   index.ts
-🛠 Development
-Lint and Format
-bash
-Copy
-Edit
-npm run lint
-npm run format
-🧭 Roadmap
- Modal / Dialog
-
- Button
-
- Alert Banner
-
- Theme Switcher
-
- Form validation
+```
 
 🙌 Author
 Made with ❤️ by Mohammad Rehan
